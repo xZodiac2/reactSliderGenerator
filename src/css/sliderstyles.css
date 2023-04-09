@@ -1,0 +1,68 @@
+.slider-container {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #73B0CD;
+    border-radius: 30px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.slider-window {
+    overflow: hidden;
+}
+
+.slider-block {
+    display: flex;
+    position: relative;
+    right: 0;
+    transition: right 0.3s;
+}
+
+.slide {
+    text-align: center;
+}
+
+.designation-marks {
+    width: 20%;
+}
+
+li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    outline: 3px solid black;
+    outline-offset: 2px;
+}
+
+.designation-marks .list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    margin: 30px 0;
+    padding: 0;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.active {
+    background-color: black;
+}
+
+.slide p {
+    max-width: 95%;
+}
+
+.to-create-slider {
+    margin: 20px 0 20px 0;
+}

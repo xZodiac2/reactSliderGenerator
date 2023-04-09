@@ -1,0 +1,146 @@
+@import url('sliderstyles.css');
+
+.container,
+.slider-ready-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #73B0CD;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f5;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+body {
+    background-color: #A8DFF1;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    height: 99%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 95%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 10px 200px 10px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    width: 200px;
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.slider-ready-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(239, 239, 239);
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+}
+
+a:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+a:active {
+    background-color: rgb(214, 214, 214);
+}
+
+
+
+
+.fill-slides-container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #73B0CD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f5;
+    border-radius: 30px;
+}
+
+.slides-content-fill {
+    width: 100%;
+}
+
+.fill-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+
+
+.fill-slide-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fill-slide-form * {
+    margin: 10px;
+}
+
+.fill-slide-form input {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 0;
+}
+
+.fill-slide-form input::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+textarea::placeholder {
+    font-size: 17px;
+}
