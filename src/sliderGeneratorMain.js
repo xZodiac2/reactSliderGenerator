@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import { Route, Routes, BrowserRouter} from 'react-router-dom'
+import React, { useState } from 'react'
+import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import SelectSlierItemsQuantity from './components/selectSliderItemsQuantity'
 import SelectDisplayedSLiderItemsQuantity from './components/selectDisplayedSLiderItemsQuantity'
 import CreateSlider from './components/createSlider'
@@ -36,12 +36,12 @@ export default function Generator() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<SelectSlierItemsQuantity  sendToParentSliderItemsQuantity={getSliderItemsQuantity} /> }/>
-                <Route path='/selectDisplayedSLiderItemsQuantity' element={<SelectDisplayedSLiderItemsQuantity sendToParentDisplayedSliderItemsQuantity={getDisplayedSliderItemsQuntity}/>}/>
-                <Route path='/beforeSlidesFilling' element={<BeforeSlidesFIlling />}/>
-                <Route path='/fillSlides' element={<FillSlides parameters={sliderParameters} sendToParentSLiderContent={getSlidesContent}/>}/>
-                <Route path='/createSlider' element={<CreateSlider />}/>
-                <Route path='/slider' element={<Slider parameters={sliderParameters} content={slidesContent}/>}/>
+                <Route path='/' element={<SelectSlierItemsQuantity sendToParentSliderItemsQuantity={getSliderItemsQuantity} />} />
+                <Route path='/selectDisplayedSLiderItemsQuantity' element={<SelectDisplayedSLiderItemsQuantity sendToParentDisplayedSliderItemsQuantity={getDisplayedSliderItemsQuntity} />} />
+                <Route path='/beforeSlidesFilling' element={<BeforeSlidesFIlling />} />
+                <Route path='/fillSlides' element={<FillSlides parameters={sliderParameters} sendToParentSLiderContent={getSlidesContent} />} />
+                <Route path='/createSlider' element={<CreateSlider />} />
+                <Route path='/slider' element={<Slider parameters={sliderParameters} content={slidesContent} />} />
             </Routes>
         </BrowserRouter>
     )
